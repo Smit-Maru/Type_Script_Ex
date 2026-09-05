@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Drag and Drop App</title>
+
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+
+    <h1>Task Management Board</h1>
+
+    <div class="board">
+
+        <!-- TODO -->
+        <div class="column">
+            <h2>TODO</h2>
+
+            <div class="task-list" id="todo">
+                <div class="task" draggable="true">Learn TypeScript</div>
+                <div class="task" draggable="true">Practice JavaScript</div>
+                <div class="task" draggable="true">Complete Assignment</div>
+            </div>
+        </div>
+
+
+        <!-- IN PROGRESS -->
+        <div class="column">
+            <h2>IN PROGRESS</h2>
+
+            <div class="task-list" id="progress">
+                <div class="task" draggable="true">Build Drag Drop App</div>
+            </div>
+        </div>
+
+
+        <!-- DONE -->
+        <div class="column">
+            <h2>DONE</h2>
+
+            <div class="task-list" id="done">
+                <div class="task" draggable="true">Setup TypeScript</div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="./dist/index.js"></script>
+
+</body>
+</html>

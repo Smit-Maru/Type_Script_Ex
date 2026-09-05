@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "preserve",
+    "moduleDetection": "legacy",
+    "rootDir": ".",
+    "outDir": "./dist",
+    "strict": true
+  },
+  "files": [
+    "./Geometry.ts",
+    "./app.ts"
+  ]
+}
